@@ -1,10 +1,16 @@
---MADE BY $name{11e-009-825-Eg5-7Fo}
+--MADE BY artemiy#7982
+--MADE BY artemiy#7982
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "EnterTheScript2023 - Autorun", HidePremium = false, SaveConfig = true, ConfigFolder = "EnterTheScript2023"})
 
 local Tab = Window:MakeTab({
 	Name = "Select",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local cr = Window:MakeTab({
+	Name = "Creator",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -31,4 +37,5 @@ Tab:AddButton({
 			OrionLib:Destroy()
   	end    
 })
+cr:AddLabel("MADE BY artemiy#7982")
 
