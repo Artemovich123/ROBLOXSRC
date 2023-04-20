@@ -25,8 +25,18 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Adopt me pet MFR",
 	Callback = function()
-            loadstring(game:HttpGet(('https://raw.githubusercontent.com/Artemovich123/ROBLOXSRC/main/PetMFR.lua'),true))()
-			OrionLib:Destroy()
+			--1
+			--2
+			q = 10
+			while q > 0 do
+			  local clientData = require(game.ReplicatedStorage.ClientModules.Core.ClientData)
+			  local playerData = clientData.get_data()[tostring(game.Players.LocalPlayer)]
+			  for i,v in pairs(playerData.inventory.pets) do
+			     v.properties.rideable = true
+			     v.properties.flyable = true
+			  end
+			  wait(1.7)
+			end
   	end    
 })
 
