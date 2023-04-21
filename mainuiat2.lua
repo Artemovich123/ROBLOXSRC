@@ -14,7 +14,7 @@ local cr = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
+Tab:AddLabel("ExtraShiled Security system")
 Tab:AddButton({
 	Name = "Adopt me hub",
 	Callback = function()
@@ -23,11 +23,11 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "Adopt me pet MFR (start with 10 second timeout)",
+	Name = "Adopt me pet MFR (start with 16 second timeout)",
 	Callback = function()
 			--1
 			--2
-			wait(10.9)
+			wait(16.9)
 			q = 10
 			while q > 0 do
 			  local clientData = require(game.ReplicatedStorage.ClientModules.Core.ClientData)
