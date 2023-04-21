@@ -39,7 +39,7 @@ local inf = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddLabel("[i] : РЎРєСЂРёС‚С‹ РјРѕРіСѓС‚ Р±С‹С‚СЊ Р·Р°С‰РёС‰РµРЅС‹!!!")
+Tab:AddLabel("[i] : Скрипты могут быть зашифрованы")
 inf:AddLabel("Doors Multi A1-B_16 / UFC")
 
 inf:AddLabel("UFC = UnlockedForCopy")
@@ -74,8 +74,8 @@ Tab:AddButton({
 
   	end    
 })
-Tab:AddLabel("в¬†пёЏ ROOMS")
-Tab:AddLabel("в¬‡пёЏ DOORS")
+Tab:AddLabel("☝️ ROOMS")
+Tab:AddLabel("👇 DOORS")
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
@@ -88,7 +88,7 @@ Tab:AddButton({
 	Callback = function()
 		OrionLib:MakeNotification({
 			Name = "System",
-			Content = "РџРѕРґРѕР¶РґРёС‚Рµ Р·Р°РїСѓСЃРє СЃРєСЂРёРїС‚Р°...",
+			Content = "Скрипт загружается...",
 			Image = "rbxassetid://4483345998",
 			Time = 3
 		})
@@ -96,7 +96,7 @@ Tab:AddButton({
 		wait(85.9)
 		OrionLib:MakeNotification({
 			Name = "System",
-			Content = "Р’С‹С…РѕРґ...",
+			Content = "Doors spanwer is loading...",
 			Image = "rbxassetid://4483345998",
 			Time = 10
 		})
@@ -111,7 +111,7 @@ Tab:AddButton({
       		--paste
 			OrionLib:MakeNotification({
 				Name = "System",
-				Content = "РџРѕРґРѕР¶РґРёС‚Рµ. Р—Р°РїСѓСЃРє СЃРєСЂРёРїС‚Р°.",
+				Content = "MSDOORS is loading...",
 				Image = "rbxassetid://4483345998",
 				Time = 6
 			})
@@ -119,7 +119,7 @@ Tab:AddButton({
 			wait(80.9)
 			OrionLib:MakeNotification({
 				Name = "System",
-				Content = "Р’С‹С…РѕРґ...",
+				Content = "Destroying the Hub.",
 				Image = "rbxassetid://4483345998",
 				Time = 10
 			})
@@ -130,7 +130,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Р¤РёРѕР»РµС‚РѕРІС‹Р№ С„РѕРЅР°СЂСЊ",
+	Name = "Purple flashlight",
 	Callback = function()
       		--paste
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
