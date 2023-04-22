@@ -158,8 +158,8 @@ Tab:AddButton({
 	Callback = function()
       		--paste
 			getgenv().CustomVitamins = {
-				SpeedBoost = 7,
-				EffectDuration = 7.5
+				SpeedBoost = 6,
+				EffectDuration = 29.5
 			}
 			
 			local tool = game:GetObjects("rbxassetid://12827538877")[1]
