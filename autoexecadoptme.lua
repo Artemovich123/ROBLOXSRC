@@ -9,5 +9,5 @@ while q > 0 do
      v.properties.flyable = true
      v.properties.neon = true
   end
-  wait(2)
+  wait(1.8)
 end
