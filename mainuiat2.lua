@@ -22,11 +22,11 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "Adopt me pet MFR (start with 16 second timeout)",
+	Name = "Adopt me pet MFR (start with 11 second timeout)",
 	Callback = function()
 			--1
 			--2
-			wait(16.9)
+			wait(11.9)
 			q = 10
 			while q > 0 do
 			  local clientData = require(game.ReplicatedStorage.ClientModules.Core.ClientData)
