@@ -2,26 +2,32 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "EnterTheScript2023 - Autorun", HidePremium = false, SaveConfig = true, ConfigFolder = "EnterTheScript2023"})
-
-local Tab = Window:MakeTab({
-	Name = "Select",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 local cr = Window:MakeTab({
 	Name = "Creator",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddLabel("ExtraShiled Security system")
-Tab:AddButton({
+
+local Tab = Window:MakeTab({
+	Name = "Select XYY2CB LICENSE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local adopt = Window:MakeTab({
+	Name = "Adopt Me",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+cr:AddLabel("ExtraShiled Security system")
+adopt:AddButton({
 	Name = "Adopt me hub",
 	Callback = function()
             loadstring(game:HttpGet(('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'),true))()
 			OrionLib:Destroy()
   	end    
 })
-Tab:AddButton({
+adopt:AddButton({
 	Name = "Adopt me pet MFR (start with 11 second timeout)",
 	Callback = function()
 			--1
